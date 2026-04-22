@@ -69,6 +69,7 @@ export async function fetchNoteById(id: string): Promise<Note> {
     });
     return res.data;
   } catch (error) {
+    toast.error("Failed to fetch note");
     throw error;
   }
 }
