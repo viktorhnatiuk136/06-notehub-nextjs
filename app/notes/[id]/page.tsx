@@ -4,7 +4,7 @@ import {
   QueryClient,
 } from "@tanstack/react-query";
 import { fetchNoteById } from "@/lib/api";
-import NoteDetailsClient from "./NoteDetailsСlient";
+import NoteDetailsClient from "./NoteDetails.client";
 
 type Props = {
   params: { id: string };
